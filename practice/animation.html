@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <title>
+
+    </title>
+  <style>
+    .element{
+        height:100px;
+        width:100px;
+        background-color: aquamarine;
+        animation-name: bottomup;
+        animation-duration: 1s;
+       animation-fill-mode:forwards;
+      animation-delay: 2s;
+    }
+    @keyframes bottomup{
+        from{transform: translateY(0);}
+        to{transform: translateY(-50px);}    
+    }
+  </style>
+    </head>
+    <body>
+        <div class="element"></div>
+    </body>
+</html>
